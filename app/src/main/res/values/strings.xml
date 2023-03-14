@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Convertitore di Valuta</string>
+    <string name="txt_eurusd">€ in $</string>
+    <string name="btn_text">Converti</string>
+    <string name="txt_output">Output</string>
+</resources>
