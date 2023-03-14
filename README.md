@@ -22,4 +22,4 @@ Contributors names and contact info
 [@AleRunza](https://twitter.com/alerunza)
 
 ## Example
-https://i.imgur.com/EDbGphv.gif
+![](https://i.imgur.com/EDbGphv.gif)
