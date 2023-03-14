@@ -20,3 +20,6 @@ command to run if program contains helper info
 Contributors names and contact info
 
 [@AleRunza](https://twitter.com/alerunza)
+
+## Example
+https://i.imgur.com/EDbGphv.gif
