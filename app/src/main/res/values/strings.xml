@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Convertitore di Valuta</string>
     <string name="txt_eurusd">€ in $</string>
+    <string name="txt_usdeur">$ in €</string>
+    <string name="txt_choose">* in *</string>
+    <string name="txt_write">Immetti un Numero</string>
     <string name="btn_text">Converti</string>
     <string name="txt_output">Output</string>
+    <string name="txt_eur">EURO</string>
+    <string name="txt_usd">USD</string>
 </resources>

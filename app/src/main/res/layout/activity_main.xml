@@ -8,12 +8,37 @@
     android:orientation="vertical"
     >
 
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/rbtn_eur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_eur"
+            android:onClick="checkStatus"
+            />
+
+        <RadioButton
+            android:id="@+id/rbtn_usd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_usd"
+            android:onClick="checkStatus"
+            />
+
+    </RadioGroup>
+
     <TextView
         android:id="@+id/txt_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/txt_eurusd"
+        android:hint="@string/txt_choose"
         android:textSize="28sp"
         android:textColor="@color/black"
         />
@@ -24,18 +49,20 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:ems="10"
+        android:hint="@string/txt_write"
         android:gravity="center"
         android:inputType="numberDecimal"
         android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_conv"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/btn_text"
         android:onClick="converter"
-        />
+        android:text="@string/btn_text"
+        app:iconTint="#FFFFFF" />
 
     <TextView
         android:id="@+id/txt_out"
