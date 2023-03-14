@@ -1,4 +1,4 @@
-# ConvertitorediValuta
+# Convertitore di Valuta
 
 Simple Convertor of Currency from EUR to USD or vice-versa
 
