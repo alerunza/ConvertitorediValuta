@@ -38,13 +38,11 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
         if(check.contains("EUR")){
-            mainText.setText(R.string.txt_eurusd);
             eur = Double.parseDouble(inp_1.getText().toString());
             conv = Math.round(eur * 1.07);
             currency = "€ ";
         }
         if(check.contains("USD")){
-            mainText.setText(R.string.txt_usdeur);
             usd = Double.parseDouble(inp_1.getText().toString());
             conv = Math.round(usd * 0.93);
             currency = "$ ";
@@ -54,18 +52,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void checkStatus(View v){
+        TextView mainText = (TextView) findViewById(R.id.txt_main);
         boolean checked = ((RadioButton) v).isChecked();
 
         switch (v.getId()){
             case R.id.rbtn_eur:
                 if(checked){
                     check = "EUR";
+                    mainText.setText(R.string.txt_eurusd);
                     Log.e("MainActivity", check);
                 }
                 break;
             case R.id.rbtn_usd:
                 if(checked){
                     check = "USD";
+                    mainText.setText(R.string.txt_usdeur);
                     Log.e("MainActivity", check);
                 }
                 break;
